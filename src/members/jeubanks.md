@@ -3,7 +3,8 @@ name: Jahni Eubanks
 image: ../images/jeubanks.jpg
 interests: 
   - Gaming
-  - Reading
+  - Basketball 
+  - Hanging out with friends
 ---
 
 
