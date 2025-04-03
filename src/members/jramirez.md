@@ -1,6 +1,6 @@
 ---
 name: Jayson Ramirez
-image: jramirez.jpg
+image: ../images/jramirez.jpg
 interests: 
   - Gaming
   - Cooking
