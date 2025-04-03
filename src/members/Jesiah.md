@@ -1,6 +1,6 @@
 ---
 name: Jesiah Minott
-image: Jesiah M.jpg ../images/_template.png
+image: ../images/Jesiah M.jpg
 interests: 
   - Gaming
   - Playing cards
