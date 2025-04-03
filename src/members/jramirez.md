@@ -4,7 +4,7 @@ image: ../images/jramirez.jpg
 interests: 
   - Gaming
   - Cooking
-  -Music
+  - Music
 ---
 
 
