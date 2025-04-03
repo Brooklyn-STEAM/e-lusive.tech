@@ -1,6 +1,6 @@
 ---
 name: Christopher Brown
-image: ../images/cbrown.png
+image: ../images/cbrown.jpg
 interests: 
   - Gaming
   - Relaxing
