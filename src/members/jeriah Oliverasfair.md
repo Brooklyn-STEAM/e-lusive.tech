@@ -1,6 +1,6 @@
 ---
 name: Jeriah Olivrasfair 
-image: ../images/Screenshot 2025-01-17 at 7.30.49 AM.png
+image: ../images/jeriah.png
 interests: 
   - Gaming
   - writing
