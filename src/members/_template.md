@@ -1,5 +1,5 @@
 ---
-name: Jo Doe
+name: Joe do
 image: ../images/_template.png
 interests: 
   - Gaming
@@ -7,5 +7,4 @@ interests:
 ---
 
 
-
-Hi my name is *Jo Doe*, blah blah blah
+Hi my name is *Joe do*, blah blah blah
