@@ -10,4 +10,4 @@ interests:
 
 
 
-Hi my name is Donaldson Jean, blah blah blah 
+Hi my name is Donaldson Jean, i love my bed.
