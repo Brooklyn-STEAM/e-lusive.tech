@@ -1,6 +1,6 @@
 ---
 name: Jahni Eubanks
-image: ../images/jeubanks.jpg
+image: ../images/jahni.jpeg
 interests: 
   - Gaming
   - Basketball 
