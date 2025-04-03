@@ -1,5 +1,5 @@
 ---
-name:Sanah White
+name: Sanah White
 image: ../images/20250227_120826.jpg
 interests: 
   - Gaming
