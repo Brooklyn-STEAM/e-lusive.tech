@@ -9,4 +9,4 @@ interests:
 
 
 
-Hi my name is *Jo Doe*, blah blah blah
+Hi my name is *Jahni Eubanks*, 
