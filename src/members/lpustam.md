@@ -8,4 +8,4 @@ interests:
 
 
 
-Hi my name is Liam Pustam, and I like to relax, and go at life with slow pace.
+Hi my name is Liam Pustam, and I like to relax. I like to eat food and go at life with a slow pace.
