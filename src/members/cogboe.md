@@ -1,6 +1,6 @@
 ---
 name: Caleb Ogboe
-image: ../images/cogboe.png
+image: ../images/cogboe.jpeg
 interests: 
   - Gaming
   - Movies
