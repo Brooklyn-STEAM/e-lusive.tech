@@ -1,6 +1,6 @@
 ---
 name: Jahni Eubanks
-image: ../images/jeubanks.png
+image: ../images/jeubanks.jpg
 interests: 
   - Gaming
   - Reading
