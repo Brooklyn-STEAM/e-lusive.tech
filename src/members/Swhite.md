@@ -1,6 +1,6 @@
 ---
 name:Sanah White
-image: ../images/_20250227_120826.jpg
+image: ../images/20250227_120826.jpg
 interests: 
   - Gaming
   - music
