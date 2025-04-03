@@ -10,4 +10,4 @@ interests:
 
 
 
-Hi my name is Jannatul Prity, I am a rising 11th grades attending Bedford Academy Highschool. I hope to grow into a young independent women in STEM, creating significant impacts in the work I partake in.
+Hi my name is Jannatul Prity, I am a rising 12th grader attending Bedford Academy Highschool. I hope to grow into a young independent women in STEM, creating significant impacts in the work I partake in.
