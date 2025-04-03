@@ -1,5 +1,5 @@
 ---
-name: Jo Doe
+name: Joshua Lewin
 image: ../images/joshualewin.png
 interests: 
   - Gaming
