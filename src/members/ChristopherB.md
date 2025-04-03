@@ -5,7 +5,7 @@ interests:
   - Gaming
   - Relaxing
   - Traveling
-  -Sports (Volleyball in general)
+  - Sports (Volleyball in general)
 ---
 
 
