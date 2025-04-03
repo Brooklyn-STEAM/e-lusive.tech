@@ -1,11 +1,65 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import { getCollection } from "astro:content";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import "../styles/main.css";
+
+import Member from "../components/Member.astro";
+
+const _members = await getCollection("members");
+
+const members = _members.length > 1 ? _members.filter(m => m.id !== '_template') : _members
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>E-LUSIVE Tech</title>
+	</head>
+	<body>
+		<header>
+			<h1>E-LUSIVE Tech</h1>
+			<p>Class of 2024 - Brooklyn STEAM Center</p>
+		</header>
+
+		<div class="motto">
+			<p>
+				Where tech is created and kept secure, safe, and silent with efficiency.
+			</p>
+		</div>
+
+		<div class="container">
+			<section class="about-section">
+				<h2>What is E-LUSIVE Tech?</h2>
+				<p>
+					E-lusive Tech is a community founded at the Brooklyn STEAM center that
+					creates websites, and protects your personal information from third
+					parties, and unwanted hackers. Ensuring your information is Elusive to
+					others, but safe with us.
+				</p>
+
+				<h3>Why are we called E-LUSIVE Tech?</h3>
+				<p>
+					We are called E-lusive tech because we identify as elusive, in other
+					words rare and hard to come by. Class of 2024 is different than your
+					average Steam cohort we are built of brilliant minds who are diligent
+					and profound and elusive especially on the internet. Our innovations
+					are unparalleled and our creations are exceptional.
+				</p>
+			</section>
+
+			<section class="student-contributions">
+				<h2>Our Team</h2>
+				<div class="student-grid">
+					<!-- Students will add their contributions here -->
+					{members.map(member => <Member member={member} />)}
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<p>&copy; 2024 E-LUSIVE Tech - Brooklyn STEAM Center</p>
+		</footer>
+	</body>
+</html>

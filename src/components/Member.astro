@@ -1,0 +1,34 @@
+---
+import type { CollectionEntry } from "astro:content"
+
+interface Props {
+  member: CollectionEntry<"members">
+}
+
+const { member } = Astro.props
+---
+
+<div x-data="{ modal: false }" class="student-container">
+  <button class="student-card" @click="modal = true">
+    <img src={member.data.image.src} alt={member.data.name} />
+    <h3>{member.data.name}</h3>
+    <h4>Interests: {member.data.interests.join(", ")}</h4>
+  </button>
+
+  <template x-teleport="body">
+    <div x-show="modal" class="modal-overlay">
+      <div  class="modal">
+        <div class="modal-content" @click.outside="modal = false">
+          <h2>{member.data.name}</h2>
+          <button @click="modal = false" class="modal-close">&times;</button>
+          <!-- <div>
+           <a href={member.data.website} target="_blank">Website</a>
+          </div> -->
+          <article>
+              { member.body }
+          </article>
+        </div>
+      </div>
+    </div>
+  </template>
+</div>
