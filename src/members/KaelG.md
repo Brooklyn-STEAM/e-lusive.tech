@@ -9,5 +9,4 @@ interests:
 ---
 
 
-
-Hi my name is *Jo Doe*, blah blah blah
+I'm Kael Guerrero. I am that one student from E-lusive Tech and I do things I guess!!!
